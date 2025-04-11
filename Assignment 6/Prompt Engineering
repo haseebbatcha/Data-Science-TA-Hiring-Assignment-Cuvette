@@ -1,0 +1,39 @@
+I am using my first assigment for the given task on ChatGPT
+Here, for my first assignment (the Student Performance Dataset analysis using EDA, classification, etc.), 
+here's how you can complete the Prompt Engineering section step-by-step:
+
+Step 1:
+Prompt which I gave:
+"Perform Exploratory Data Analysis on the Student Performance Dataset (Math/Portuguese), and generate multiple code segments 
+using seaborn and matplotlib to explain distributions, relationships between features, and pass/fail analysis. Include comments for students to understand each plot."
+
+
+Step 2:
+Response from the AI:
+# Distribution of math scores
+plt.figure(figsize=(8,5))
+sns.histplot(df['math score'], bins=20, kde=True, color='skyblue')
+plt.title('Distribution of Math Scores')
+plt.xlabel('Math Score')
+plt.ylabel('Count')
+plt.show()
+
+# Boxplot to compare scores by gender
+plt.figure(figsize=(8,5))
+sns.boxplot(data=df, x='gender', y='math score', palette='pastel')
+plt.title('Math Scores by Gender')
+plt.show()
+
+
+
+Step 3:
+What did the AI do well?
+      The AI did a great job by generating EDA code with clear visualizations and relevant labels. 
+      It selected appropriate plots (histograms, boxplots, pairplots) that made the data easier to understand for beginners. 
+      The inline comments were helpful for explaining to students. 
+
+What did you have to modify or improve?
+      I added additional plots like countplot for pass/fail counts and heatmap for correlation to give students a complete picture of the dataset.
+      I customized plot titles, axis labels, and color palettes to make the visualizations more readable and engaging.
+      For the classification part, I modified the target variable by creating a new binary column (pass/fail) based on average score, since the dataset didn’t have a direct "pass" column.
+      I also explained the logic behind splitting the data, standardizing features, and evaluating the model, to ensure students understand every step.
