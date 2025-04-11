@@ -1,0 +1,20 @@
+1) How I’d support students struggling with concepts or deadlines:
+
+As a final year student, I’ve seen how easily students can feel lost when concepts pile up or deadlines feel too close. 
+If someone is struggling, I’d first assure them that it’s okay to feel that way — we’ve all been there. 
+I’d sit with them to understand exactly where they’re stuck and break the concept down into smaller, digestible parts. 
+For deadlines, I’d help them prioritize tasks and create a simple plan to stay on track. 
+I also believe peer learning really helps — sometimes, hearing a concept from a friend can be more effective than a classroom explanation. 
+I’d use diagrams, examples from everyday life, or even short quizzes to keep things engaging. I’d also share resources like cheat sheets or YouTube links that helped me. 
+My goal would be to make them feel supported, confident, and never alone in their learning journey.
+
+
+2) How I would break down a complex topic like “Gradient Descent” for beginners:
+
+When teaching a topic like Gradient Descent, I’d avoid jumping straight into equations. 
+Instead, I’d start with a relatable example — like finding the lowest point in a hilly landscape while blindfolded, using just your feet to sense the slope. 
+That’s essentially what Gradient Descent does — it takes small steps in the direction that reduces the error. 
+I’d then use simple visuals to show how the cost function decreases with each step. 
+To make it more interactive, I’d explain how the learning rate controls the size of the steps — too big and you might overshoot, too small and you’ll take forever. 
+I’d compare it to adjusting your speed when walking downhill. After building the intuition, I’d slowly introduce the math, explaining gradients and partial derivatives in the most basic way. 
+Finally, I’d show a real-world implementation using Python or visualize the steps using an animation to reinforce the concept.
